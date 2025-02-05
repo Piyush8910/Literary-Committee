@@ -2,6 +2,8 @@ import af1 from "../assets/OurEventImages/af1.jpg";
 import af2 from "../assets/OurEventImages/af2.jpg";
 import od1 from "../assets/OurEventImages/od1.jpg";
 import od2 from "../assets/OurEventImages/od2.jpg";
+import odd1 from "../assets/OurEventImages/odd1.jpg"
+import odd2 from "../assets/OurEventImages/odd2.jpg"
 
 export function OurEventsMain() {
     return (
@@ -40,8 +42,8 @@ export function OurEventsMain() {
 
             <div className="text-white grid grid-cols-1 lg:grid-cols-2 gap-10 mt-20">
                 <div className="flex justify-center items-center relative order-1 lg:order-2 mr-10 sm:mr-0">
-                    <img src={af1} className="rounded-full w-[150px] h-[150px] lg:w-[250px] lg:h-[250px] border-4 border-white" />
-                    <img src={af2} className="rounded-full w-[150px] h-[150px] lg:w-[250px] lg:h-[250px] mt-40 lg:mt-60 ml-40 lg:ml-60 border-4 border-white absolute z-2" />
+                    <img src={odd1} className="rounded-full w-[150px] h-[150px] lg:w-[250px] lg:h-[250px] border-4 border-white" />
+                    <img src={odd2} className="rounded-full w-[150px] h-[150px] lg:w-[250px] lg:h-[250px] mt-40 lg:mt-60 ml-40 lg:ml-60 border-4 border-white absolute z-2" />
                 </div>
                 <div className="ml-5 lg:ml-10 pt-20 order-2 lg:order-1">
                     <div className="text-4xl lg:text-5xl font-ezcar">Odyssey</div>
